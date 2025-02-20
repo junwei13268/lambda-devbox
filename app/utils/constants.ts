@@ -1,0 +1,1 @@
+export const defaultCode = "export const handler = async (event) => {\n\t// TODO implement\n\tconsole.log(\"Log from Lambda!\");\n\tconst response = {\n\t\tstatusCode: 200,\n\t\tbody: JSON.stringify('Hello from Lambda!'),\n\t};\n\treturn response;\n};"
